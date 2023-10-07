@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1150px;
+    /* border: solid 2px; */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #daac00;
+}
+
+.row {
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.jcc{
+    justify-content: center;
+}
+.jcs {
+    justify-content: space-between;
+}
+
+.alc {
+    align-items: center;
+}
+.po-rel{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+
+.col-55 {
+    width: 55%;
+}
+
+.col-35 {
+    width: 35%;
+}
+.col-40 {
+    width: 40%;
+}
+.col-45 {
+    width: 45%;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+.navbar {
+    padding: 10px 0;
+}
+
+.links ul li {
+    display: inline-block;
+}
+
+.links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.input-fl input {
+    padding: 7px 10px;
+    background-color: #fcc302;
+    border: none;
+    outline: none;
+    /* color: white; */
+}
+
+.my-input::placeholder {
+    color: white;
+}
+
+.input-fl button {
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    margin: 0 0 0 -15px;
+    background-color: #00bec9;
+}
+
+.home-sec {
+    background-color: #fcc302;
+    padding: 70px 0;
+}
+
+.sec-one-text h1 {
+    font-size: 70px;
+    color: white;
+    line-height: 50px;
+}
+
+.sec-one-text p {
+    font-size: 25px;
+    color: white;
+    margin: 20px 0;
+
+}
+
+.btn-gp .btn-1{
+    border-radius: 7px;
+    background-color: #00bec9;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    margin:  0 20px 0 0 ;
+}
+.btn-gp .btn-2{
+    border-radius: 7px;
+    background-color: #fcc302;
+    padding: 15px 30px;
+    color: white;
+    border: solid 2px white;
+}
+.img-dog{
+    width: 400px;
+}
+.img-dog img{
+    width: 100%;
+}
+.sec-two-main {
+    padding: 100px 0;
+}
+.sec-two-main h2{
+    font-size: 40px;
+    /* color: white; */
+    line-height: 40px;
+
+}
+.sec-two-main p{
+    margin: 40px 0;
+    font-size: 23px;
+    /* color: white; */
+    /* line-height: 40px; */
+
+}
+.bg-of-dog{
+    background-image: linear-gradient(#fcc20291, #fcc2028c,#fcc2028b),url(./IMG/Place\ Your\ Image\ Here.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.bg-of-dog .sm-icon{
+    /* font-size: 50px; */
+    width: 50px;
+    padding: 15px 28px  15px 32px;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+}
+.sm-icon img{
+    width: 30px;
+}
+.mini-box{
+    width: 250px;
+    height: 200px;
+    background-color: #fcc302;
+}
+.mini-box{
+    top: 250px;
+    left: -50px;
+    z-index: -1;
+}
+
+

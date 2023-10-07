@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section {
+            background-color: gray;
+            height: 800px;
+        }
+        .logo h1{
+            font-size: 25px;
+            color: white;
+        }
+        .logo{
+            width: 100px;
+        }
+        .logo img{
+            width: 100%;
+        }
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            border: solid 5px;
+        }
+        header{
+            background-color: brown;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 0;
+            align-items: center;
+        }
+        .links ul li{
+            /* display: flex; */
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 0 15px;
+            padding: 10px;
+        }
+        .icon i{
+            font-size: 25px;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <section>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="../img/logo.png" alt="">
+                        <!-- <h1>logo</h1> -->
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">product</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    
+                </nav>
+            </div>
+
+        </header>
+    </section>
+
+</body>
+
+</html>
